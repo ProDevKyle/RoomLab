@@ -33,7 +33,7 @@ public class Runner
 		int b = (int)(Math.random()*building.length);
 		while (b == y)
 			b = (int)(Math.random()*building.length);
-		building[x][y] = new LunchRoom(a,b);
+		building[a][b] = new LunchRoom(a,b);
 		 //Setup player 1 and the input scanner
 		Person player1 = new Person("FirstName", "FamilyName", 0,0);
 		building[0][0].enterRoom(player1);
