@@ -86,7 +86,6 @@ public class Runner
 				{
 					return false;
 				}
-
 			case "s":
 				if (p.getxLoc() < map.length - 1)
 				{
@@ -98,7 +97,6 @@ public class Runner
 				{
 					return false;
 				}
-
 			case "w":
 				if (p.getyLoc() > 0)
 				{
@@ -112,7 +110,6 @@ public class Runner
 				}
 			default:
 				break;
-					
 		}
 		return true;
 	}
