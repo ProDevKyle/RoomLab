@@ -26,7 +26,7 @@ public class Runner
 		int x = (int)(Math.random()*building.length);
 		int y = (int)(Math.random()*building.length);
 		building[x][y] = new WinningRoom(x,y);
-		//Create a lucnh room.
+		//Create a lunch room.
 		int a = (int)(Math.random()*building.length);
 		while (a == x)
 			a = (int)(Math.random()*building.length);

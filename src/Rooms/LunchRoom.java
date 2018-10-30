@@ -10,7 +10,7 @@ public class LunchRoom extends Room
     }
     public void enterRoom(Person x)
     {
-        System.out.println("You enter the lunchroom!!!");
+        System.out.println("You enter the lunchroom!");
         occupant = x;
         x.setxLoc(this.xLoc);
         x.setyLoc(this.yLoc);
