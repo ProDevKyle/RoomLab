@@ -1,30 +1,29 @@
 package People;
-
 /**
  * Person represents the player as they move through the game.
  */
-public class Person {
+
+public class Person
+{
 	String firstName;
 	String familyName;
 	int xLoc, yLoc;
-
-
-	public int getxLoc() {
+	public int getxLoc()
+	{
 		return xLoc;
 	}
-
-	public void setxLoc(int xLoc) {
+	public void setxLoc(int xLoc)
+	{
 		this.xLoc = xLoc;
 	}
-
-	public int getyLoc() {
+	public int getyLoc()
+	{
 		return yLoc;
 	}
-
-	public void setyLoc(int yLoc) {
+	public void setyLoc(int yLoc)
+	{
 		this.yLoc = yLoc;
 	}
-
 	public Person (String firstName, String familyName, int xLoc, int yLoc)
 	{
 		this.firstName = firstName;
@@ -32,6 +31,4 @@ public class Person {
 		this.xLoc = xLoc;
 		this.yLoc = yLoc;
 	}
-
-
 }
